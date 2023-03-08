@@ -1,0 +1,236 @@
+.hero{
+    height: 100vh ;
+    width: 100%;
+    background-color:darkblue; 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  nav{
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 45px;
+      padding-left: 8%;
+      padding-right: 8%;
+  }
+  
+  .logo{
+      color:coral;
+      font-size: 40px;
+      letter-spacing: 1px;
+      cursor:pointer;
+  }
+  span{
+      color:rgb(3, 3, 3);
+  }
+  
+  nav ul li{
+      list-style-type:none ;
+      display: inline-block;
+      padding: 10px 25px;
+  }
+  
+  nav ul li a{
+      color:goldenrod;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  }
+  
+  nav ul li a:hover{
+      color:rgb(3, 3, 3);
+      transition:4s;
+      transform:scale(1.2);  
+  }
+  
+  .content{
+      position: absolute;
+      top:50%;
+      left:8%;
+      transform: translateY(-50%);
+  }
+  
+  h1{
+      color:palevioletred;
+      margin:20px 0px 20px;
+      font-size: 75px;
+  }
+  
+  h4{
+      color:peru;
+      letter-spacing: 2px;
+      font-size: 40px;
+  }
+  .newslatter{
+      width: 380px;
+      max-width: 100%;
+      position: relative;
+  }
+  .newslatter form input:first-child{
+      display: inline-block;
+      width: 100%;
+      padding: 14px 130px 14px 15px;
+      border: 2px solid#f90;
+      outline: none;
+      border-radius: 30px;
+  }
+  .newslatter form input:last-child{
+      position: absolute;
+      display:inline-block;
+      outline: none;
+      border: none;
+      padding:10px 30px;
+      border-radius: 30px;
+      background-color: #f90;
+      color:paleturquoise;
+      box-shadow: 0px 0px 5px #000,opx opx 15px#d14141;
+      top:6px;
+      right:6px;
+  }
+  .About{
+      width:1200px;
+      padding:100px;
+      background-color:black;
+  }
+  .about-text{
+      width: 550px;
+  }
+  .main{
+      width: 1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display:inline;
+      align-items: center;
+      justify-content: space-around;
+  }
+  .about-text h2{
+      color:olivedrab;
+      font-size: 75px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+  }
+  .about-text h5{
+      color:teal;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+  }
+  .about-text p{
+      color:whitesmoke;
+      letter-spacing: 5px;
+      line-height: 30px;
+      font-size: 20px;
+      margin-bottom:45px;
+  }
+  button{
+      background-color:rgb(214, 33, 64);
+      color:orange;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 30px;
+      border-radius: 30px;
+      transition: .4s;
+  }
+  button:hover{
+      background-color: transparent;
+      border: 2px solid wheat;
+      cursor: pointer;
+  }
+  
+  .service{
+      background: #000;
+      width: 100%;
+      padding: 20px 0px;
+  }
+  .title h2{
+      color:whitesmoke;
+      font-size: 100px;
+      width: 1130px;
+      margin:50px auto ;
+      text-align: center;
+  }
+  .box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 500px;
+  }
+  
+  .card{
+      height:365px;
+      width:400px;
+      padding: 50px 40px;
+      background:peachpuff;
+      border-radius: 200px;
+      margin: 20px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+  
+  }
+  h5{
+      color: plum;
+      font-size: 23px;
+      margin-bottom: 15px;
+  }
+  .pra p{
+      color: black;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 30px;
+  
+  }
+  .card.button{
+      background-color:rgb(214, 33, 64);
+      color:orange;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 13px 27px;
+      border-radius: 30px;
+      transition: .4s;
+  }
+  .card.button:hover{
+      background-color: transparent;
+      border: 2px solid wheat;
+      cursor: pointer;
+  }
+  .work{
+      border: 2px solid wheat;
+      color: pink;
+      text-align: center;
+      padding: 15px;
+      font-size: 30px;
+  }
+  head{
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+  
+  }
+  .class p{
+      color: teal;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 30px;
+  }
+  .pa p{
+      color: blueviolet;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 30px;
+  }
+  ol{
+      color: rgb(230, 12, 230);
+      font-size: 30px;
+      line-height: 40px;
+      margin-bottom:50px ;
+  }
+  h3{
+      color: blue;
+      font-size: 25px;
+      margin-bottom: 30px;
+  }

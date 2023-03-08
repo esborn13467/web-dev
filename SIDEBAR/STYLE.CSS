@@ -1,0 +1,97 @@
+.sidebar{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    padding-top: 70px;
+    top: 0;
+    bottom: 0;
+    
+
+}
+.sidebar ul{
+    list-style: none;
+
+}
+ul{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+
+}
+li{
+    padding: 15px 15px;
+    font-family: cursive;
+    font-size: large;
+
+}
+a{
+    text-decoration: none;
+    color:chartreuse;
+}
+a:hover {
+    background-color: orangered;
+    color: aqua;
+}
+.rounded-image{
+    width: 200px;
+    height: 150px;
+    border-radius: 80%;
+    overflow-y: none;
+    
+}
+
+.myname{
+    font-size: 40px;
+}
+.introduction{
+    margin-left: 300px;
+}
+.introduction-text{ 
+    font-size: 20px;
+
+}
+.contact-me{
+    border: 1px solid lawngreen;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.contact-me a {
+padding: 20px;
+background-color: blueviolet;
+
+}
+.contact-me a :hover{
+    background-color: white;
+    color: black;
+transition: 200ms ease-in-out;}
+.read-more a {
+    color: beige;
+    background-color: aliceblue;
+    font-weight: bold;
+    padding:10px;
+    border: 21px black;
+
+}
+.read-more a:hover{
+    background-color: white;
+    text-decoration-color: blue;
+    transition: 200ms ease-in-out;
+}
+.read-more a {
+    color: beige;
+    background-color: rgb(10, 241, 80);
+    font-weight: bold;
+    padding: 8px;
+    border: 1px black;
+
+}
+.read-more a:hover{
+    background-color: rgb(228, 12, 12);
+    text-decoration-color: blue;
+    transition: 200ms ease-in-out;
+}
